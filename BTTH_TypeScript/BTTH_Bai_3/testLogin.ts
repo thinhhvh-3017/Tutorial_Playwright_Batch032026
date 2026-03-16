@@ -1,5 +1,5 @@
-import { LoginPage } from './pages/loginPage';
-import { DashboardPage } from './pages/dashboardPage';
+import { LoginPage } from './pages/loginPage.ts';
+import { DashboardPage } from './pages/dashboardPage.ts';
 
 async function testLogin(): Promise<void> {
     const loginPage = new LoginPage();
