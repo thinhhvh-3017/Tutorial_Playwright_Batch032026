@@ -1,5 +1,5 @@
 {
-  "name": "BTTH_Nen_tang",
+  "name": "BTTH_Playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,8 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
   }
 }
